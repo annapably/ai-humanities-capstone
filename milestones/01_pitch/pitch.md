@@ -1,7 +1,7 @@
 # Milestone 1 — Pitch
-**Due: 30.10.2026**
+**30.10.2026**
 
-Fill in each section below. A page is enough; these are prompts, not a form.
+Dana Gordon, Anna Pably
 
 ---
 
