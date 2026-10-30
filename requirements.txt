@@ -1,0 +1,11 @@
+anthropic>=0.40.0
+openai>=1.50.0          # optional: for multi-model comparison
+python-dotenv>=1.0.0
+# RAG dependencies (uncomment if using 03_rag)
+# chromadb>=0.5.0
+# langchain>=0.3.0
+# langchain-anthropic>=0.3.0
+# langchain-community>=0.3.0
+# sentence-transformers>=3.0.0
+# pypdf>=5.0.0
+# tiktoken>=0.7.0
