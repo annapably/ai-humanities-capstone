@@ -10,7 +10,7 @@ See `src/evaluation/questions.md` for your 5–10 test questions.
 ## Experiment template
 
 ```
-### Experiment [N] — [short description]
+### Experiment [1] — [short description]
 Date: YYYY-MM-DD
 Model: [model name + version]
 Prompt version: [e.g. v001]
@@ -28,6 +28,29 @@ Layer: [baseline | prompted | rag | agents]
 
 **What I will change next:**
 - 
+
+## Experiment template
+
+
+### Experiment [2] — [short description]
+Date: YYYY-MM-DD
+Model: [model name + version]
+Prompt version: [e.g. v001]
+Layer: [baseline | prompted | rag | agents]
+
+**Question asked:**
+> ...
+
+**Output:**
+> ...
+
+**What I noticed:**
+- 
+- 
+
+**What I will change next:**
+- 
+
 ```
 
 ---
