@@ -10,6 +10,8 @@ See `src/evaluation/questions.md` for your 5–10 test questions.
 ## Experiment template
 
 ```
+Disclaimer: Used Claude for goldstandard template inspiration and scripts for Qwen
+
 ### Experiment [1] — [short description]
 Date: YYYY-MM-DD
 Model: [model name + version]
