@@ -1,0 +1,33 @@
+excerpt;nr;type;text passage;who? (name, gender, party);addressed at?;note;unsure? y/n;address
+excerpt_1.txt;1;interjection;(Zwischenruf des Abg. Matznetter [SPÖ]);Matznetter, m, SPÖ;-;no text;n;-
+excerpt_1.txt;2;interjection;(Abg. Darmann [FPÖ] – erheitert –: Ja, das ist die übliche Praxis in einem Landgasthaus!);Darmann, m, FPÖ;speaker;(„erheitert“);n;-
+excerpt_1.txt;3;interjection;(Ruf bei der SPÖ: Was?);-, -, SPÖ;-;no specific person named;n;-
+excerpt_1.txt;4;interjection;(Abg. Kaniak [FPÖ]: Für Freiheit! Merk dir das, ein Wort reicht: Freiheit!;Kaniak, m, FPÖ;speaker;4 and 5 immediately after each other;n;-
+excerpt_1.txt;5;interjection;Ruf bei der FPÖ: Bei uns hat alles Platz! Wir sind Volkspartei!);-, -, FPÖ;speaker;4 and 5 immediately after each other;n;-
+excerpt_1.txt;6;interjection;(Ruf bei der FPÖ: Das ist nur eine Verständnisfrage!);-, -, FPÖ;speaker;no specific person named;n;-
+excerpt_1.txt;7;reaction;(Beifall bei den NEOS.);NEOS;speaker;no specific person named;n;-
+excerpt_1.txt;8;interjection;(Abg. Kaniak [FPÖ]: Für diese Empfindungsstörungen können wir aber nichts!);Kaniak, m, FPÖ;speaker;-;n;-
+excerpt_1.txt;9;interjection;(Abg. Wurm [FPÖ]: Das ist relativ unkompliziert!);Wurm, m, FPÖ;speaker;-;n;-
+excerpt_1.txt;10;interjection;(Zwischenruf des Abg. Petschnig [FPÖ].);Petschnig, m, FPÖ;-;no text;n;-
+excerpt_1.txt;11;interjection;(Abg. Wurm [FPÖ]: Genau!);Wurm, m, FPÖ;speaker;-;n;-
+excerpt_1.txt;12;interjection;(Abg. Wurm [FPÖ]: Das haben Sie nicht genau gelesen, Frau Kollegin!);Wurm, m, FPÖ;speaker;direct address to speaker;n;Frau Kollegin
+excerpt_1.txt;13;reaction;(Beifall bei den NEOS.);NEOS;speaker;reaction to speaker’s question;n;-
+excerpt_1.txt;14;interjection;(Abg. Wurm [FPÖ]: Nein, aber andere Lokalwährungen!);Wurm, m, FPÖ;speaker;-;n;-
+excerpt_1.txt;15;interjection;(Abg. Steiner [FPÖ]: Es hat die D-Mark gegeben!);Steiner, m, FPÖ;speaker;-;n;-
+excerpt_1.txt;16;reaction;(Beifall bei den NEOS);NEOS;speaker;-;n;-
+excerpt_1.txt;17;interjection;(Abg. Wurm [FPÖ]: Frau Kollegin, Sie haben nichts über das Gold gesagt!);Wurm, m, FPÖ;speaker;directly speaking to speaker;n;Frau Kollegin
+excerpt_1.txt;18;interjection;(Abg. Holzegger [NEOS] – auf dem Weg zu ihrem Sitzplatz –: Natürlich hab ich etwas übers Gold gesagt!);Holzegger, f, NEOS (speaker);interjection;answering interjection;n;-
+excerpt_2.txt;1;reaction;(in Richtung Abg. Wurm [FPÖ]);Seemayer, m, SPÖ (speaker);Wurm, m, FPÖ;directly speaking to other member of the parliament;n;-
+excerpt_2.txt;2;reaction;(Heiterkeit des Abg. Hofer [NEOS].);Hofer, m, NEOS;speaker;reaction to speaker;n;-
+excerpt_2.txt;3;interjection;(Abg. Wurm [FPÖ]: Einer hat’s geschafft! Einer!);Wurm, m, FPÖ;speaker;-;n;-
+excerpt_2.txt;4;interjection;(Abg. Wurm [FPÖ]: Die Tankstellen machen sieben!);Wurm, m, FPÖ;speaker;-;n;-
+excerpt_2.txt;5;interjection;(Abg. Wurm [FPÖ]: Billiger!);Wurm, m, FPÖ;speaker;does not agree with speaker;n;-
+excerpt_2.txt;6;interjection;(Abg. Wurm [FPÖ]: Billiger! Der Neuner kommt eine Stelle vor!);Wurm, m, FPÖ;speaker;disagrees with speaker again;n;-
+excerpt_2.txt;7;interjection;(Abg. Wurm [FPÖ]: Ich habe kein Gold, ich weiß es nicht!);Wurm, m, FPÖ;speaker;-;n;-
+excerpt_2.txt;8;interjection;(Abg. Wurm [FPÖ]: Wie geht das jetzt noch einmal genau?);Wurm, m, FPÖ;speaker;question to speaker, rather sarcastic;n;-
+excerpt_2.txt;9;interjection;(Zwischenruf des Abg. Hafenecker [FPÖ]);Hafenecker, m, FPÖ;-;no text;n;-
+excerpt_2.txt;10;reaction;(Beifall bei den NEOS sowie des Abg. Kocevar [SPÖ]);"NEOS; Kocevar, m, SPÖ";speaker;reaction to speaker;n;-
+excerpt_2.txt;11;interjection;(Ruf bei den NEOS: Bravo!);NEOS;speaker;reaction to speaker;n;-
+excerpt_2.txt;12;interjection;(Abg. Wurm [FPÖ]: NEOS, was ist denn los mit euch?);Wurm, m, FPÖ;speaker;reaction to other reactions;n;-
+excerpt_2.txt;13;reaction;Beifall bei der SPÖ, bei Abgeordneten der ÖVP sowie des Abg. Hofer [NEOS].;"SPÖ; ÖVP; Hofer, m, NEOS";speaker;reaction to speaker;n;-
+excerpt_2.txt;14;interjection;Abg. Wurm [FPÖ]: Bravo!;Wurm, m, FPÖ;speaker;reaction to speaker, does not seem genuine based on previous interactions and reactions;y;-
