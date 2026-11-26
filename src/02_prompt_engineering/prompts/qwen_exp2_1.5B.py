@@ -11,7 +11,7 @@ from transformers import pipeline
 
 ROOT = Path(__file__).resolve().parents[3]
 RAW = ROOT / "data" / "raw"
-OUT = ROOT / "milestones" / "03_first_experiments" / "outputs"
+OUT = ROOT / "milestones" / "03_first_experiments" / "outputs" / "experiment_1"
 
 QUESTIONS = {
     "Q1": "Which forms of address occur in this excerpt, and who is addressed in each case? Please provide the title, the form of the name (first name/last name), and the gender, as far as it can be recognised from the text for each instance.",
