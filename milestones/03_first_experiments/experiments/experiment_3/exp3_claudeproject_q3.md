@@ -7,6 +7,8 @@
 
 **Model:** Claude Sonnet 5.5, Medium Setting
 
+**Settings:** New chat per run, project "Capstone"
+
 **Date:** 26.11.2026
 
 **Instructions:** You analyse excerpts from the stenographic protocols of the Austrian National Council. On request, please annotate forms of address towards the speaker, interjections ("Zwischenrufe") and calls to order ("Ordnungsrufe").

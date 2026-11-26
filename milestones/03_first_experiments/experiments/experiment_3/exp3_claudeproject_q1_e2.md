@@ -1,4 +1,4 @@
-# Experiment 3: Claude Project Question 2 Extract 2
+# Experiment 3: Claude Project Question 1 Extract 2
 
 
 ---
@@ -6,6 +6,8 @@
 **Experiment:** 3 (Claude Project, project knowledge in context)
 
 **Model:** Claude Sonnet 5.5, Medium Setting
+
+**Settings:** New chat per run, project "Capstone"
 
 **Date:** 26.11.2026
 
@@ -27,79 +29,50 @@ Use the guidelines to identify forms of address, not to judge them.
 
 **Context:** [Language guide 1](languageguide1.pdf), [Language guide 2](languageguide2.pdf), [Language guide 3](languageguide3.pdf), [Language guide 4](languageguide4.pdf), [Language guide 5](languageguide5.pdf), [Language guide 6](languageguide6.pdf), [Example Protocol 1](A_-_09_06_01_01034476.pdf), [Example Protocol 2](A_-_12_04_09_01022291.pdf), [Example Protocol 3](A_-_18_52_33_01018749.pdf)
 
-**Question:** 2 – Do interjections occur in this excerpt and what are they? For each instance, please state who calls out (name, gender, party) and what is said. Finish with the total number.
+**Question:** 1 – Which forms of address occur in this excerpt, and who is addressed in each case? Please provide the title, the form of the name (first name/last name), and the gender, as far as it can be recognised from the text for each instance.
 
 Abgeordneter Michael Seemayer (SPÖ): Danke, Herr Präsident! Frau Staatssekretärin! Eines muss man vielleicht gleich klarstellen: Es geht ja nicht um einen illegalen Goldankauf. – Ich weiß ja nicht, ob du (in Richtung Abg. Wurm [FPÖ]), Peter, etwas mit illegalen Goldankäufen zu tun hast, aber illegaler Goldankauf ist per se verboten. (Heiterkeit des Abg. Hofer [NEOS].) Also es geht eher um die derzeit legalen Möglichkeiten, Gold anzukaufen. Eines möchte ich aber kurz noch klären: Es sind natürlich viele Anträge im Ausschuss diskutiert worden – dort haben wir es ja auch diskutiert –, andere Anträge haben es da vielleicht nicht hineingeschafft. (Abg. Wurm [FPÖ]: Einer hat’s geschafft! Einer!) Ich sage einmal, einer hat es geschafft, andere vielleicht nicht, weil sie vielleicht auch nicht so brauchbar waren. Die dritte Dezimalstelle bei den Tankstellen gibt es nicht per Gesetz, sondern das machen die Tankstellen immer noch freiwillig. Es ist nicht verboten, dass man mehrere Dezimalstellen bei Preisen ausweist. Schau dir einmal deine Stromrechnung an – ich habe mir meine angeschaut, da gibt es sechs Dezimalstellen bei den Strompreisen. (Abg. Wurm [FPÖ]: Die Tankstellen machen sieben!) Ich bin froh, dass nicht gerundet wird, denn wenn man bei den Tankstellen mathematisch runden würde, würde es in Wirklichkeit teurer werden (Abg. Wurm [FPÖ]: Billiger!), nicht billiger. Wenn hinten ein Neuner steht, geht es meistens nach oben und nicht nach unten, das sagen Arbö und ÖAMTC übrigens auch. (Abg. Wurm [FPÖ]: Billiger! Der Neuner kommt eine Stelle vor!) Worum geht es aber in dem Antrag, der es ins Parlament geschafft hat? – Da geht es nicht um den illegalen Goldankauf – der ist per se verboten –, es geht um die legalen Möglichkeiten, Gold zu verkaufen, zu verwerten. Es geht darum, dass der Goldpreis in den vergangenen Monaten historische Höhen erreicht hat, die Marke von 4 000 Dollar je Unze teilweise überschritten hat. (Abg. Wurm [FPÖ]: Ich habe kein Gold, ich weiß es nicht!) Gemeinsam mit der hohen Inflation und der Teuerung der letzten Jahre verspüren viele einen zusätzlichen Liquiditätsbedarf. Diese Entwicklung hat einem oft fragwürdigen Geschäftsmodell entsprechend Aufwind verschafft, nämlich dem mobilen, kurzfristig agierenden Goldankauf. Vielleicht ist Ihnen das schon einmal aufgefallen oder Sie sind schon einmal über Inserate oder Flugblätter gestolpert oder auch Werbeanzeigen in sozialen Medien (Abg. Wurm [FPÖ]: Wie geht das jetzt noch einmal genau?), in denen sogenannte Goldankäufer Gold und andere Edelmetalle zu Spitzenpreisen kaufen wollen (Zwischenruf des Abg. Hafenecker [FPÖ]), meistens in angemieteten Geschäftslokalen oder auch in Gasthäusern oder Hotels. Was ist aber das Problem bei diesen Geschäften und bei diesen fragwürdigen Methoden? – Oftmals wird über fragwürdige Praktiken bei den Ankaufsgesprächen berichtet: Es kommt zu erhöhtem Verkaufsdruck und sogenannten Kopplungsgeschäften. Außerdem sind solche Ankäufer oft nur wenige Tage im Lande und im Nachhinein nur schwer erreichbar. Weiters gibt es Hinweise darauf, dass mitunter Preise gezahlt werden, die deutlich unter den marktüblichen Richtwerten liegen. Auch ist beim Fehlen von Registrierkassen nicht auszuschließen, dass die Einnahmen an der Finanz vorbeigeschleust werden, und es bestehen Zweifel, ob die verwendeten Waagen durchgehend den österreichischen Eichvorschriften entsprechen. (Beifall bei den NEOS sowie des Abg. Kocevar [SPÖ]. – Ruf bei NEOS: Bravo! – Abg. Wurm [FPÖ]: NEOS, was ist denn los mit euch?) Bei unseren deutschen Nachbarn wurden bereits so manipulierte Waagen beschlagnahmt, und Stichproben haben gezeigt, dass oftmals nur 30 bis 50 Prozent des tatsächlichen Warenwerts angeboten werden. Diese Praktiken schaden nicht nur den Konsumentinnen und Konsumenten, sondern bringen auch jene Juwelierinnen und Juweliere in Verruf, die sich an gesetzliche Vorgaben halten. Warum werden dann trotzdem solche Goldankäufer aufgesucht und nicht die eingesessenen Juwelierinnen und Juweliere? – Vermutlich oft aus Scham oder falschem Stolz, gerade im ländlichen Raum: Es könnte ja sein, dass einer im Ort mitbekommt, dass man vielleicht Geldsorgen hat. Diese Lebenslagen von unseren Mitbürgerinnen und Mitbürgern dürfen nicht ausgenutzt werden. Es braucht da einen besseren Schutz für die Konsumentinnen und Konsumenten. Das wollen wir mit unserem Antrag in die Wege leiten. – Danke. (Beifall bei der SPÖ, bei Abgeordneten der ÖVP sowie des Abg. Hofer [NEOS]. – Abg. Wurm [FPÖ]: Bravo!)
 
 
 ---
 
-Yes, the excerpt contains interjections. I counted **10 spoken interjections**, plus 3 non-verbal reactions that I did not count. I worked only from the excerpt and used no project files.
+The excerpt contains five instances of address, plus one party-level address inside an interjection. All are spoken by Abg. Michael Seemayer (SPÖ, male, as "Herr" cannot be shown but the first name is given) unless stated otherwise. The excerpt itself doesn't give his gender, so I'm inferring it from the first name.
 
-**Gender:** The excerpt gives no first names or gender marking for the callers, so I write "unclear". The one exception is Wurm. Seemayer says "(in Richtung Abg. Wurm [FPÖ]), Peter", which suggests the first name Peter and a male person, but the text does not state gender outright.
+**1. "Danke, Herr Präsident!"**
+- Addressed: the presiding officer, name unclear.
+- Title: Präsident. Name form: none.
+- Gender: male, from "Herr" and "Präsident".
+- Type: address (formal, ceremonial opening).
 
-**Interjections**
+**2. "Frau Staatssekretärin!"**
+- Addressed: a state secretary, name unclear.
+- Title: Staatssekretärin. Name form: none.
+- Gender: female, from "Frau" and the feminine ending "-in".
+- Type: address (formal).
 
-1. "(Abg. Wurm [FPÖ]: Einer hat's geschafft! Einer!)"
-   - Caller: Wurm, FPÖ, gender unclear.
-   - Addressed: Seemayer, the speaker.
-   - Type: interjection. It answers Seemayer's remark that other motions did not make it into the committee.
+**3. "Ich weiß ja nicht, ob du (in Richtung Abg. Wurm [FPÖ]), Peter, etwas mit illegalen Goldankäufen zu tun hast"**
+- Addressed: Abg. Wurm (FPÖ), as shown by the stage direction "in Richtung Abg. Wurm [FPÖ]".
+- Title: none in the address itself. Name form: first name only ("Peter"), with informal "du".
+- Gender: male, inferred from the first name "Peter". The stage direction gives no gender.
+- Type: address. The first name is not stated alongside the surname, so it is only implied that Peter is Wurm.
 
-2. "(Abg. Wurm [FPÖ]: Die Tankstellen machen sieben!)"
-   - Caller: Wurm, FPÖ.
-   - Addressed: Seemayer.
-   - Type: interjection. It corrects his claim of six decimal places on electricity prices.
+**4. "Schau dir einmal deine Stromrechnung an"**
+- Addressed: unclear. This is an informal "du" imperative. Given the preceding passage it could be directed at Wurm, but the text doesn't say so. It could also be a generic "du" meaning "one".
+- Title: none. Name form: none. Gender: unclear.
+- Type: address.
 
-3. "(Abg. Wurm [FPÖ]: Billiger!)"
-   - Caller: Wurm, FPÖ.
-   - Addressed: Seemayer.
-   - Type: interjection. It contradicts his "teurer werden".
+**5. "Vielleicht ist Ihnen das schon einmal aufgefallen oder Sie sind schon einmal über Inserate oder Flugblätter gestolpert"**
+- Addressed: the plenary audience in general. No individual is named.
+- Title: none. Name form: none. Gender: unclear.
+- Type: address (formal "Sie").
 
-4. "(Abg. Wurm [FPÖ]: Billiger! Der Neuner kommt eine Stelle vor!)"
-   - Caller: Wurm, FPÖ.
-   - Addressed: Seemayer.
-   - Type: interjection. It repeats the contradiction and adds an argument about the position of the digit nine.
+**6. Interjection: "(Abg. Wurm [FPÖ]: NEOS, was ist denn los mit euch?)"**
+- Speaker: Abg. Wurm (FPÖ). His gender is unclear in this passage, and his first name is not given here.
+- Addressed: the NEOS group as a collective.
+- Title: none. Name form: party name. Gender: not applicable. The informal plural "euch" is used.
+- Type: interjection that contains an address. Whether it is sincere or sarcastic can't be determined from the text, though it directly follows applause from the NEOS benches.
 
-5. "(Abg. Wurm [FPÖ]: Ich habe kein Gold, ich weiß es nicht!)"
-   - Caller: Wurm, FPÖ.
-   - Addressed: Seemayer.
-   - Type: interjection. It links back to Seemayer's earlier remark about illegal gold purchases.
+**Not forms of address**
+These refer to groups in the third person and don't address anyone: "unseren deutschen Nachbarn", "Konsumentinnen und Konsumenten", "Juwelierinnen und Juweliere" and "Mitbürgerinnen und Mitbürgern". They use paired feminine and masculine forms, but nobody is addressed with them.
 
-6. "(Abg. Wurm [FPÖ]: Wie geht das jetzt noch einmal genau?)"
-   - Caller: Wurm, FPÖ.
-   - Addressed: Seemayer.
-   - Type: interjection, formulated as a question. It follows his description of adverts and flyers. It may be ironic, but the text alone does not settle this.
-
-7. "(Zwischenruf des Abg. Hafenecker [FPÖ])"
-   - Caller: Hafenecker, FPÖ, gender unclear.
-   - Addressed: unclear.
-   - Type: interjection. The wording is not given, so its content cannot be described.
-
-8. "Ruf bei NEOS: Bravo!"
-   - Caller: an individual unnamed member of the NEOS group, gender unclear.
-   - Addressed: Seemayer, as a response to his statements.
-   - Type: interjection. The "Bravo!" is approving and comes alongside the applause.
-
-9. "(Abg. Wurm [FPÖ]: NEOS, was ist denn los mit euch?)"
-   - Caller: Wurm, FPÖ.
-   - Addressed: the NEOS group, who had just applauded.
-   - Type: interjection. It is a rhetorical question that comments on the NEOS applause.
-
-10. "(Abg. Wurm [FPÖ]: Bravo!)"
-    - Caller: Wurm, FPÖ.
-    - Addressed: Seemayer, or the applauding parties, since it follows the applause.
-    - Type: interjection. It could be genuine or ironic. The text does not decide, though the earlier remark to the NEOS makes an ironic reading possible.
-
-**Reactions I did not count**
-
-These are collective or non-verbal and contain no spoken call:
-- "(Heiterkeit des Abg. Hofer [NEOS].)" is laughter by Hofer, NEOS.
-- "(Beifall bei den NEOS sowie des Abg. Kocevar [SPÖ].)" is applause.
-- "(Beifall bei der SPÖ, bei Abgeordneten der ÖVP sowie des Abg. Hofer [NEOS].)" is applause.
-
-The phrase "(in Richtung Abg. Wurm [FPÖ])" is a stage direction for Seemayer's own remark, not an interjection.
-
-**Total: 10 interjections**
-- Wurm (FPÖ): 8
-- Hafenecker (FPÖ): 1
-- Unnamed member of the NEOS group: 1
+I answered from the pasted excerpt alone and did not draw on the project files.
