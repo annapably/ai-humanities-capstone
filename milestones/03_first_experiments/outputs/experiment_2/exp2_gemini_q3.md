@@ -1,4 +1,4 @@
-# Experiment 2: Claude Question 3
+# Experiment 2: Gemini Question 3
 
 
 ---

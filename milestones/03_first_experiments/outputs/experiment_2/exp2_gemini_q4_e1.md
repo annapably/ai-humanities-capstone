@@ -1,4 +1,4 @@
-# Experiment 2: Claude Question 4 Extract 1
+# Experiment 2: Gemini Question 4 Extract 1
 
 
 ---
