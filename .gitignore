@@ -16,6 +16,8 @@ build/
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
+# update 26.11.26 for milestone 3 excerpts upload 1 line:
+!data/raw/milestone3_excerpt*.txt
 !data/processed/.gitkeep
 
 # Vector stores
