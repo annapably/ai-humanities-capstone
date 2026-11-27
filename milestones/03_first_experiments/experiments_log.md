@@ -17,15 +17,18 @@ Disclaimer: Use of Claude for goldstandard template and prompt inspiration and s
 
 Note how at least **two models** differ for your material:
 
-| Model          | Strength observed                                     | Weakness observed                                                |
-|----------------|-------------------------------------------------------|------------------------------------------------------------------|
-| Claude         | Exp. 1: Mostly correct                                | Made up names                                                    |
-|                | Exp. 2: Correct, complete, gives quotes               | Occurrence with faulty gender detection                          |
-|                | Exp. 3: Similar to Exp. 2 but also able to use inputs | Still missed a gender que                                        |
-| Gemini         | Exp. 1: Mostly correct                                | Made up names                                                    |
-|                | Exp. 2: Almost entirely correct, complete             | Totals not always accurate to gold standard, inconsistent gender |
-| Qwen 1.5B      | TODO                                                  | TODO                                                             |
-| Qwen 3B        | TODO                                                  | TODO                                                             |
+| Model          | Strength observed                                                  | Weakness observed                                                                               |
+|----------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| Claude         | Exp. 1: Mostly correct                                             | Made up names                                                                                   |
+|                | Exp. 2: Correct, complete, gives quotes                            | Occurrence with faulty gender detection                                                         |
+|                | Exp. 3: Similar to Exp. 2 but also able to use inputs              | Still missed a gender que                                                                       |
+| Gemini         | Exp. 1: Mostly correct                                             | Made up names                                                                                   |
+|                | Exp. 2: Almost entirely correct, complete                          | Totals not always accurate to gold standard, inconsistent gender                                |
+| Qwen 1.5B      | Exp. 1: Follows Q4 sentence limit, runs locally                    | Hallucinated names/parties/quotes, repetition loops, counts greetings as interjections          |
+| Qwen 1.5B      | Exp. 2: Stops counting opening greetings as interjections          | Severe repetition loops, refuses Q3 without excerpt, breaks Q4 format/length and Q2 total count |
+| Qwen 3B        | Exp. 1: Better MP/party recognition than 1.5B, fewer wild acronyms | Repetition loops, made up first names, confuses speaker/interjector roles and Bundestag         |
+| Qwen 3B        | Exp. 2: Identifies real FPÖ interjections in Q5 E2                 | Echoes full excerpts and truncates early, fabricates quotes in Q5 E1, misses counts/fields      |
+
 
 ---
 
