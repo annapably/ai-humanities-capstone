@@ -13,6 +13,8 @@ Questions 1, 2, 4 and 5 are asked for each excerpt (Excerpt 1: milestone3_excerp
 Question 3 is asked without text.
 When pasting into the chat, copy only the question text and attach/paste the excerpt.
 
+**Ethical Statement:** Question 5 does not aim to target a specific party, it simply tries to test the model's ability of finding a specific party in the excerpt and forming a response accordingly.
+
 1. Which forms of address occur in this excerpt, and who is addressed in each case? Please provide the title, the form of the name (first name/last name), and the gender, as far as it can be recognised from the text for each instance.
    Applies to: Excerpt 1, Excerpt 2
 2. Do interjections occur in this excerpt and what are they? For each instance, please state who calls out (name, gender, party) and what is said. Finish with the total number.
