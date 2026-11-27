@@ -5,33 +5,13 @@ Record each experiment here as you run it. Copy the template block for every new
 
 See `src/evaluation/questions.md` for your 5–10 test questions.
 
-Note: Since we ran a total of 81 experiments, we will showcase one experiment for each type in this log.
+**Note:** Since we ran a total of 81 experiments, we will link the questions and outputs for each experiment in this log.
 For the full experiment selection, see `milestones/03_first_experiments/experiments`, including the three main experiment types (baseline, prompted, Claude project) and the experiments respectively using Claude, Gemini, Qwen 1.5B and Qwen 3B with the different questions on two excerpts of the protocols.
 The code used for the Qwen experiment instances can be found under `src/02_prompt_engineering_prompts`.
 
-Disclaimer: Use of Claude for goldstandard template and prompt inspiration and scripts for Qwen code.
+**Disclaimer:** Use of Claude for gold standard template inspiration, prompt inspiration, and help for the scripts of the Qwen code.
 
 ---
-
-## Model comparison notes
-
-Note how at least **two models** differ for your material:
-
-| Model          | Strength observed                                                  | Weakness observed                                                                               |
-|----------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Claude         | Exp. 1: Mostly correct                                             | Made up names                                                                                   |
-|                | Exp. 2: Correct, complete, gives quotes                            | Occurrence with faulty gender detection                                                         |
-|                | Exp. 3: Similar to Exp. 2 but also able to use inputs              | Still missed a gender que                                                                       |
-| Gemini         | Exp. 1: Mostly correct                                             | Made up names                                                                                   |
-|                | Exp. 2: Almost entirely correct, complete                          | Totals not always accurate to gold standard, inconsistent gender                                |
-| Qwen 1.5B      | Exp. 1: Follows Q4 sentence limit, runs locally                    | Hallucinated names/parties/quotes, repetition loops, counts greetings as interjections          |
-| Qwen 1.5B      | Exp. 2: Stops counting opening greetings as interjections          | Severe repetition loops, refuses Q3 without excerpt, breaks Q4 format/length and Q2 total count |
-| Qwen 3B        | Exp. 1: Better MP/party recognition than 1.5B, fewer wild acronyms | Repetition loops, made up first names, confuses speaker/interjector roles and Bundestag         |
-| Qwen 3B        | Exp. 2: Identifies real FPÖ interjections in Q5 E2                 | Echoes full excerpts and truncates early, fabricates quotes in Q5 E1, misses counts/fields      |
-
-
----
-
 # Experiment template
 
 ## Experiment 1 - Baseline
@@ -128,7 +108,9 @@ Layer: baseline
 
 ### Experiment 1.3 — Qwen 1.5B: Testing 5 Questions on 2 Excerpts Without Further Prompting
 Date: 2026-11-25
+
 Model:Qwen 2.5-1.5B
+
 Prompt version: v1 - prompt only as question with excerpt
 
 Layer: baseline
@@ -170,15 +152,16 @@ Layer: baseline
 - it gets abbreviations wrong -> e.g. says FPÖ stands for Folkspartei Österreich or SPÖ/Spä for "Sociálna pozicia"
 - doesnt get titles right -> e.g. says that Mr is the title even though the full title would be Herr Präsident
 
-
-
 **What I will change next:**
 - Will try the same with Qwen 3B instead of Qwen 1.5B
 
 ### Experiment 1.4 — Qwen 3B: Testing 5 Questions on 2 Excerpts Without Further Prompting
 Date: 2026-11-25
+
 Model: Qwen 2.5-3B
+
 Prompt version: v1 - prompt only as question with excerpt
+
 Layer: baseline
 
  
@@ -317,8 +300,11 @@ Layer: prompted
 
 ### Experiment 2.3 — Qwen 1.5B: Testing 5 Questions on 2 Excerpts With Specific Prompt
 Date: 2026-11-25
+
 Model: Qwen 2.5-1.5B
+
 Prompt version: v2 - prompt including specific set of rules
+
 Layer: prompted
 
  
@@ -362,8 +348,11 @@ Layer: prompted
 
 ### Experiment 2.4 — Qwen 3B: Testing 5 Questions on 2 Excerpts With Specific Prompt
 Date: 2026-11-25
+
 Model: Qwen 2.5-3B
+
 Prompt version: v2 - prompt including specific set of rules
+
 Layer: prompted
 
  
@@ -451,5 +440,24 @@ Layer: project
 
 **What I will change next:**
 - In the future, we aim at combining the methods that achieved best results and will most likely leave out Qwen 1.5B and Qwen 3B.
+
+---
+
+## Model comparison notes
+
+Note how at least **two models** differ for your material:
+
+| Model           | Strength observed                                                  | Weakness observed                                                                               |
+|-----------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| Claude          | Exp. 1: Mostly correct                                             | Made up names                                                                                   |
+| Claude          | Exp. 2: Correct, complete, gives quotes                            | Occurrence with faulty gender detection                                                         |
+| Claude(Project) | Exp. 3: Similar to Exp. 2 but also able to use inputs              | Still missed a gender que                                                                       |
+| Gemini          | Exp. 1: Mostly correct                                             | Made up names                                                                                   |
+| Gemini          | Exp. 2: Almost entirely correct, complete                          | Totals not always accurate to gold standard, inconsistent gender                                |
+| Qwen 1.5B       | Exp. 1: Follows Q4 sentence limit, runs locally                    | Hallucinated names/parties/quotes, repetition loops, counts greetings as interjections          |
+| Qwen 1.5B       | Exp. 2: Stops counting opening greetings as interjections          | Severe repetition loops, refuses Q3 without excerpt, breaks Q4 format/length and Q2 total count |
+| Qwen 3B         | Exp. 1: Better MP/party recognition than 1.5B, fewer wild acronyms | Repetition loops, made up first names, confuses speaker/interjector roles and Bundestag         |
+| Qwen 3B         | Exp. 2: Identifies real FPÖ interjections in Q5 E2                 | Echoes full excerpts and truncates early, fabricates quotes in Q5 E1, misses counts/fields      |
+
 
 ---
