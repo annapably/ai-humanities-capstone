@@ -120,7 +120,7 @@ Layer: baseline
 
 ### Experiment 1.3 — Qwen 1.5B: Testing 5 Questions on 2 Excerpts Without Further Prompting
 Date: 2026-11-25
-Model: x
+Model: Qwen 2.5-1.5B
 Prompt version: v1 - prompt only as question with excerpt
 Layer: baseline
 
@@ -153,14 +153,22 @@ Layer: baseline
 [exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
 
 **What I noticed:**
-- d
+- Without prompting and with greedy decoding, the model hallucinates a lot and gets stuck in repetition loops
+- It, for example, invents full names 
+- It gets confused with the roles/titles and gender -> e.g. it says that Zuseherinnen und Zuseher addresses "women voters" 
+- It gets confused with interjections -> says that the speakers interjects even though it is his turn to speak
+- It invents titles such as "Hochzeitsvater" / "Hochzeitsmutter"
+- it gets abbreviations wrong -> e.g. says FPÖ stands for Folkspartei Österreich or SPÖ/Spä for "Sociálna pozicia"
+- doesnt get titles right -> e.g. says that Mr is the title even though the full title would be Herr Präsident
+
+
 
 **What I will change next:**
-- d
+- Will try the same with Qwen 3B instead of Qwen 1.5B
 
 ### Experiment 1.4 — Qwen 3B: Testing 5 Questions on 2 Excerpts Without Further Prompting
 Date: 2026-11-25
-Model: x
+Model: Qwen 2.5-3B
 Prompt version: v1 - prompt only as question with excerpt
 Layer: baseline
 
@@ -193,10 +201,17 @@ Layer: baseline
 [exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
 
 **What I noticed:**
-- d
+- Without prompting and with greedy decoding, Qwen 3B hallucinates a lot and gets stuck in repetition loops
+- it labels roles, such as President or Colleague, as first names
+- it invents full names again
+- it identifies the speaker's words as interjection even though it is his turn to speak
+- it gets confused about who is the main speaker and who is the one interrupting the speaker
+- it also confuses the austrian Nationalrat with the german Bundestag
+- it gives less incorrect abbreviation expansions compared to Qwen 1.5
+
 
 **What I will change next:**
-- d
+- i will try to use prompts
 
 ## Experiment 2 - Prompting with Rules
 ### Experiment 2.1 — Claude: Testing 5 Questions on 2 Excerpts With Specific Prompt
@@ -287,7 +302,7 @@ Layer: prompted
 
 ### Experiment 2.3 — Qwen 1.5B: Testing 5 Questions on 2 Excerpts With Specific Prompt
 Date: 2026-11-25
-Model: x
+Model: Qwen 2.5-1.5B
 Prompt version: v2 - prompt including specific set of rules
 Layer: prompted
 
@@ -320,14 +335,19 @@ Layer: prompted
 [exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
 
 **What I noticed:**
-- d
+- It still outputs repetition loops
+- It still invents first names
+- it assigns wrong party to people
+- it did not work for Q3
+- For Q4 it should in theory only give 2-3 as an output but it made a whole list of bulletpoints for excerpt 1 and for excerpt 2 in outputted a repetition loop
+- prompt did however prevent Qwen 1.5 from counting the speaker's salutations as interjections
 
 **What I will change next:**
-- d
+- will try the same with Qwen 3B
 
 ### Experiment 2.4 — Qwen 3B: Testing 5 Questions on 2 Excerpts With Specific Prompt
 Date: 2026-11-25
-Model: x
+Model: Qwen 2.5-3B
 Prompt version: v2 - prompt including specific set of rules
 Layer: prompted
 
@@ -360,10 +380,16 @@ Layer: prompted
 [exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
 
 **What I noticed:**
-- d
+- For a lot of the questions it just outputted the whole excerpt with nothing else
+- so it doesnt answer a lot of the questions
+- and the answers it gives are not good and not complete-> e.g. for Q2 it just cuts off at point 6 without giving gender or total number
+- it also invents names again
+- also doesnt stick to the 2-3 sentence limit
+- it hallucinates interjections
+- for Q5 it does identify some genuine interventions by Wurm but it states that who is addressed is unclear
 
 **What I will change next:**
-- d
+- instruct the model to not repeat the excerpt each time
 
 ## Experiment 3 - Claude Project: Testing 5 Questions on 2 Excerpts With Specific Prompt and Further Information
 Date: 2026-11-25
