@@ -135,31 +135,31 @@ Layer: baseline
 
  
 **Question 1/Excerpt 1 & Output:**
-[exp1_claude_q1_e1](experiments/experiment_1/exp1_claude_q1_e1.md)
+[exp1_qwen_1.5B_q1_e1](experiments/experiment_1/exp1_qwen_1.5B_q1_e1.md)
 
 **Question 1/Excerpt 2 & Output:**
-[exp1_claude_q1_e2](experiments/experiment_1/exp1_claude_q1_e2.md)
+[exp1_qwen_1.5B_q1_e2](experiments/experiment_1/exp1_qwen_1.5B_q1_e2.md)
 
 **Question 2/Excerpt 1 & Output:**
-[exp1_claude_q2_e1](experiments/experiment_1/exp1_claude_q2_e1.md)
+[exp1_qwen_1.5B_q2_e1](experiments/experiment_1/exp1_qwen_1.5B_q2_e1.md)
 
 **Question 2/Excerpt 2 & Output:**
-[exp1_claude_q2_e2](experiments/experiment_1/exp1_claude_q2_e2.md)
+[exp1_qwen_1.5B_q2_e2](experiments/experiment_1/exp1_qwen_1.5B_q2_e2.md)
 
 **Question 3 & Output:**
-[exp1_claude_q3](experiments/experiment_1/exp1_claude_q3.md)
+[exp1_qwen_1.5B_q3](experiments/experiment_1/exp1_qwen_1.5B_q3.md)
 
 **Question 4/Excerpt 1 & Output:**
-[exp1_claude_q4_e1](experiments/experiment_1/exp1_claude_q4_e1.md)
+[exp1_qwen_1.5B_q4_e1](experiments/experiment_1/exp1_qwen_1.5B_q4_e1.md)
 
 **Question 4/Excerpt 2 & Output:**
-[exp1_claude_q4_e2](experiments/experiment_1/exp1_claude_q4_e2.md)
+[exp1_qwen_1.5B_q4_e2](experiments/experiment_1/exp1_qwen_1.5B_q4_e2.md)
 
 **Question 5/Excerpt 1 & Output:**
-[exp1_claude_q5_e1](experiments/experiment_1/exp1_claude_q5_e1.md)
+[exp1_qwen_1.5B_q5_e1](experiments/experiment_1/exp1_qwen_1.5B_q5_e1.md)
 
 **Question 5/Excerpt 2 & Output:**
-[exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
+[exp1_qwen_1.5B_q5_e2](experiments/experiment_1/exp1_qwen_1.5B_q5_e2.md)
 
 **What I noticed:**
 - Without prompting and with greedy decoding, the model hallucinates a lot and gets stuck in repetition loops
@@ -183,31 +183,31 @@ Layer: baseline
 
  
 **Question 1/Excerpt 1 & Output:**
-[exp1_claude_q1_e1](experiments/experiment_1/exp1_claude_q1_e1.md)
+[exp1_qwen_3B_q1_e1](experiments/experiment_1/exp1_qwen_3B_q1_e1.md)
 
 **Question 1/Excerpt 2 & Output:**
-[exp1_claude_q1_e2](experiments/experiment_1/exp1_claude_q1_e2.md)
+[exp1_qwen_3B_q1_e2](experiments/experiment_1/exp1_qwen_3B_q1_e2.md)
 
 **Question 2/Excerpt 1 & Output:**
-[exp1_claude_q2_e1](experiments/experiment_1/exp1_claude_q2_e1.md)
+[exp1_qwen_3B_q2_e1](experiments/experiment_1/exp1_qwen_3B_q2_e1.md)
 
 **Question 2/Excerpt 2 & Output:**
-[exp1_claude_q2_e2](experiments/experiment_1/exp1_claude_q2_e2.md)
+[exp1_qwen_3B_q2_e2](experiments/experiment_1/exp1_qwen_3B_q2_e2.md)
 
 **Question 3 & Output:**
-[exp1_claude_q3](experiments/experiment_1/exp1_claude_q3.md)
+[exp1_qwen_3B_q3](experiments/experiment_1/exp1_qwen_3B_q3.md)
 
 **Question 4/Excerpt 1 & Output:**
-[exp1_claude_q4_e1](experiments/experiment_1/exp1_claude_q4_e1.md)
+[exp1_qwen_3B_q4_e1](experiments/experiment_1/exp1_qwen_3B_q4_e1.md)
 
 **Question 4/Excerpt 2 & Output:**
-[exp1_claude_q4_e2](experiments/experiment_1/exp1_claude_q4_e2.md)
+[exp1_qwen_3B_q4_e2](experiments/experiment_1/exp1_qwen_3B_q4_e2.md)
 
 **Question 5/Excerpt 1 & Output:**
-[exp1_claude_q5_e1](experiments/experiment_1/exp1_claude_q5_e1.md)
+[exp1_qwen_3B_q5_e1](experiments/experiment_1/exp1_qwen_3B_q5_e1.md)
 
 **Question 5/Excerpt 2 & Output:**
-[exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
+[exp1_qwen_3B_q5_e2](experiments/experiment_1/exp1_qwen_3B_q5_e2.md)
 
 **What I noticed:**
 - Without prompting and with greedy decoding, Qwen 3B hallucinates a lot and gets stuck in repetition loops
@@ -323,31 +323,31 @@ Layer: prompted
 
  
 **Question 1/Excerpt 1 & Output:**
-[exp1_claude_q1_e1](experiments/experiment_1/exp1_claude_q1_e1.md)
+[exp2_qwen_1.5_q1_e1](experiments/experiment_2/exp2_qwen_1.5B_q1_e1.md)
 
 **Question 1/Excerpt 2 & Output:**
-[exp1_claude_q1_e2](experiments/experiment_1/exp1_claude_q1_e2.md)
+[exp2_qwen_1.5_q1_e2](experiments/experiment_2/exp2_qwen_1.5B_q1_e2.md)
 
 **Question 2/Excerpt 1 & Output:**
-[exp1_claude_q2_e1](experiments/experiment_1/exp1_claude_q2_e1.md)
+[exp2_qwen_1.5_q2_e1](experiments/experiment_2/exp2_qwen_1.5B_q2_e1.md)
 
 **Question 2/Excerpt 2 & Output:**
-[exp1_claude_q2_e2](experiments/experiment_1/exp1_claude_q2_e2.md)
+[exp2_qwen_1.5_q2_e2](experiments/experiment_2/exp2_qwen_1.5B_q2_e2.md)
 
 **Question 3 & Output:**
-[exp1_claude_q3](experiments/experiment_1/exp1_claude_q3.md)
+[exp2_qwen_1.5_q3](experiments/experiment_2/exp2_qwen_1.5B_q3.md)
 
 **Question 4/Excerpt 1 & Output:**
-[exp1_claude_q4_e1](experiments/experiment_1/exp1_claude_q4_e1.md)
+[exp2_qwen_1.5_q4_e1](experiments/experiment_2/exp2_qwen_1.5B_q4_e1.md)
 
 **Question 4/Excerpt 2 & Output:**
-[exp1_claude_q4_e2](experiments/experiment_1/exp1_claude_q4_e2.md)
+[exp2_qwen_1.5_q4_e2](experiments/experiment_2/exp2_qwen_1.5B_q4_e2.md)
 
 **Question 5/Excerpt 1 & Output:**
-[exp1_claude_q5_e1](experiments/experiment_1/exp1_claude_q5_e1.md)
+[exp2_qwen_1.5_q5_e1](experiments/experiment_2/exp2_qwen_1.5B_q5_e1.md)
 
 **Question 5/Excerpt 2 & Output:**
-[exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
+[exp2_qwen_1.5_q5_e2](experiments/experiment_2/exp2_qwen_1.5B_q5_e2.md)
 
 **What I noticed:**
 - It still outputs repetition loops
@@ -368,31 +368,31 @@ Layer: prompted
 
  
 **Question 1/Excerpt 1 & Output:**
-[exp1_claude_q1_e1](experiments/experiment_1/exp1_claude_q1_e1.md)
+[exp2_qwen_3B_q1_e1](experiments/experiment_2/exp2_qwen_3B_q1_e1.md)
 
 **Question 1/Excerpt 2 & Output:**
-[exp1_claude_q1_e2](experiments/experiment_1/exp1_claude_q1_e2.md)
+[exp2_qwen_3B_q1_e2](experiments/experiment_2/exp2_qwen_3B_q1_e2.md)
 
 **Question 2/Excerpt 1 & Output:**
-[exp1_claude_q2_e1](experiments/experiment_1/exp1_claude_q2_e1.md)
+[exp2_qwen_3B_q2_e1](experiments/experiment_2/exp2_qwen_3B_q2_e1.md)
 
 **Question 2/Excerpt 2 & Output:**
-[exp1_claude_q2_e2](experiments/experiment_1/exp1_claude_q2_e2.md)
+[exp2_qwen_3B_q2_e2](experiments/experiment_2/exp2_qwen_3B_q2_e2.md)
 
 **Question 3 & Output:**
-[exp1_claude_q3](experiments/experiment_1/exp1_claude_q3.md)
+[exp2_qwen_3B_q3](experiments/experiment_2/exp2_qwen_3B_q3.md)
 
 **Question 4/Excerpt 1 & Output:**
-[exp1_claude_q4_e1](experiments/experiment_1/exp1_claude_q4_e1.md)
+[exp2_qwen_3B_q4_e1](experiments/experiment_2/exp2_qwen_3B_q4_e1.md)
 
 **Question 4/Excerpt 2 & Output:**
-[exp1_claude_q4_e2](experiments/experiment_1/exp1_claude_q4_e2.md)
+[exp2_qwen_3B_q4_e2](experiments/experiment_2/exp2_qwen_3B_q4_e2.md)
 
 **Question 5/Excerpt 1 & Output:**
-[exp1_claude_q5_e1](experiments/experiment_1/exp1_claude_q5_e1.md)
+[exp2_qwen_3B_q5_e1](experiments/experiment_2/exp2_qwen_3B_q5_e1.md)
 
 **Question 5/Excerpt 2 & Output:**
-[exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
+[exp2_qwen_3B_q5_e2](experiments/experiment_2/exp2_qwen_3B_q5_e2.md)
 
 **What I noticed:**
 - For a lot of the questions it just outputted the whole excerpt with nothing else
