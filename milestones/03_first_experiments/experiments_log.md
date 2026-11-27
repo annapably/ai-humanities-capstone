@@ -125,7 +125,7 @@ Layer: baseline
 
 ### Experiment 1.3 — Qwen 1.5B: Testing 5 Questions on 2 Excerpts Without Further Prompting
 Date: 2026-11-25
-Model: x
+Model:Qwen 2.5-1.5B
 Prompt version: v1 - prompt only as question with excerpt
 
 Layer: baseline
