@@ -5,12 +5,17 @@ Record each experiment here as you run it. Copy the template block for every new
 
 See `src/evaluation/questions.md` for your 5–10 test questions.
 
+Note: Since we ran a total of 81 experiments, we will showcase one experiment for each type in this log.
+For the full experiment selection, see `milestones/03_first_experiments/experiments`, including the three main experiment types (baseline, prompted, Claude project) and the experiments respectively using Claude, Gemini, Qwen 1.5B and Qwen 3B with the different questions on two excerpts of the protocols.
+The code used for the Qwen experiment instances can be found under `src/02_prompt_engineering_prompts`.
+
+Disclaimer: Use of Claude for goldstandard template and prompt inspiration and scripts for Qwen code.
+
 ---
 
 ## Experiment template
 
 ```
-Disclaimer: Used Claude for goldstandard template and prompt inspiration and scripts for Qwen code
 
 ### Experiment [1] — [short description]
 Date: YYYY-MM-DD
@@ -61,7 +66,10 @@ Layer: [baseline | prompted | rag | agents]
 
 Note how at least **two models** differ for your material:
 
-| Model | Strength observed | Weakness observed |
-|-------|-------------------|-------------------|
-| TODO  | TODO              | TODO              |
-| TODO  | TODO              | TODO              |
+| Model          | Strength observed | Weakness observed |
+|----------------|-------------------|-------------------|
+| Claude         | TODO              | TODO              |
+| Gemini         | TODO              | TODO              |
+| Qwen 1.5B      | TODO              | TODO              |
+| Qwen 3B        | TODO              | TODO              |
+| Claude Project | TODO              | TODO              |
