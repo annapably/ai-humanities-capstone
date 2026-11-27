@@ -27,449 +27,384 @@ Note how at least **two models** differ for your material:
 
 ---
 
-## Experiment template
+# Experiment template
 
-```
-
-### Experiment [1] — Qwen 2.5 1.5B baseline across Q1–Q5 with excerpts 1 and 2
-Date: 22026-11-26
-Model: Qwen2.5-1.5B
-Prompt version: v000 (no prompt)
-Layer: baseline
-### Experiment 1 — Testing 5 Questions on 2 Excerpts Without Further Prompting
+## Experiment 1 - Baseline
+### Experiment 1.1 — Claude: Testing 5 Questions on 2 Excerpts Without Further Prompting
 Date: 2026-11-25
-Model: [model name + version]
+
+Model: Claude Sonnet 5.5 Medium
+
+Prompt version: v1 - prompt only as question with excerpt
+
+Layer: baseline
+ 
+**Question 1/Excerpt 1 & Output:**
+[exp1_claude_q1_e1](experiments/experiment_1/exp1_claude_q1_e1.md)
+
+**Question 1/Excerpt 2 & Output:**
+[exp1_claude_q1_e2](experiments/experiment_1/exp1_claude_q1_e2.md)
+
+**Question 2/Excerpt 1 & Output:**
+[exp1_claude_q2_e1](experiments/experiment_1/exp1_claude_q2_e1.md)
+
+**Question 2/Excerpt 2 & Output:**
+[exp1_claude_q2_e2](experiments/experiment_1/exp1_claude_q2_e2.md)
+
+**Question 3 & Output:**
+[exp1_claude_q3](experiments/experiment_1/exp1_claude_q3.md)
+
+**Question 4/Excerpt 1 & Output:**
+[exp1_claude_q4_e1](experiments/experiment_1/exp1_claude_q4_e1.md)
+
+**Question 4/Excerpt 2 & Output:**
+[exp1_claude_q4_e2](experiments/experiment_1/exp1_claude_q4_e2.md)
+
+**Question 5/Excerpt 1 & Output:**
+[exp1_claude_q5_e1](experiments/experiment_1/exp1_claude_q5_e1.md)
+
+**Question 5/Excerpt 2 & Output:**
+[exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
+
+**What I noticed:**
+- Claude manages to grasp the information and context correctly, recognizes forms and address and separates them from a simple mention of name
+- For Q3, the content is almost the same, but Claude claims that academic titles are regularly stated
+- For Q4, Claude exceeded the limit of 2-3 sentences (4 sentences)
+- The questions that are answered with a number are in line with our manually annotated gold standard (Q2, Q5)
+
+**What I will change next:**
+- Try the same thing for Gemini
+
+### Experiment 1.2 — Gemini: Testing 5 Questions on 2 Excerpts Without Further Prompting
+Date: 2026-11-25
+Model: Gemini Hydrogen
 Prompt version: v1 - prompt only as question with excerpt
 Layer: baseline
 
-**Question asked:**
-> Which forms of address occur in this excerpt, and who is addressed in each case? Please provide the title, the form of the name (first name/last name), and the gender, as far as it can be recognised from the text for each instance.
-Abgeordnete Ines Holzegger (NEOS): Vielen herzlichen Dank, Herr Präsident! Werte Frau Staatssekretärin! Hohes Haus! (Zwischenruf des Abg. Matznetter [SPÖ].) Liebe Zuseherinnen und Zuseher! Aktuell herrscht wieder Goldgräberstimmung, aber es ist nicht so wirklich eine Gräberstimmung, mehr eine Ankaufstimmung. Stellen Sie sich vor: ein Gasthaus am Land. In der Stube sitzt ein sehr freundlicher Herr, der anbietet, Ihren alten Schmuck, Ihr altes Gold zu wirklichen Toppreisen zu kaufen. (Abg. Darmann [FPÖ] – erheitert –: Ja, das ist die übliche Praxis in einem Landgasthaus!) Die Anzeige dafür haben Sie aus dem Postkasten – ein Flyer – beziehungsweise haben Sie es in der Wochenzeitung, der Sie vertrauen, oder auf sozialen Medien – Facebook und so weiter – gesehen. Für ganz viele ältere Menschen wirkt das harmlos und durchaus seriös. Was sie aber nicht wissen: Da geht es nicht immer fair zu. Denn wenn man dann nach dem Verkauf zu Hause ankommt, kommt man vielleicht drauf, dass man gescammt wurde – wir haben es vorhin schon gehört. Dann ist es leider schon zu spät. Der Ankäufer ist weg, wir können ihn nicht mehr finden. Lassen Sie mich auch eines in aller Deutlichkeit sagen: Das hat nichts und rein gar nichts mit fairem Wettbewerb zu tun. Denken wir nur an die Juwelierinnen und Juweliere, die sich an wirklich strenge Regeln halten müssen, und die tagtäglich damit konfrontiert sind, dann in die gleiche Schublade wie diese windigen Goldankäufer, die mobil unterwegs sind, gesteckt zu werden! Es gibt durchaus aus gutem Grund strenge Regeln, aber diese müssen auch für alle gelten. Das ist richtig so, denn besonders beim Gold geht es um jedes Gramm. Jedes Gramm kann wirklich viel Geld bedeuten, das dann am Ende in der Tasche fehlt. Egal ob mobil oder stationär, die Regeln müssen einfach für alle gelten. Darum brauchen wir einfach bessere Kontrollen direkt vor Ort. Die Finanzpolizei, die Marktaufsicht müssen da konsequent durchgreifen. Ja, der Antrag ist ein erster Schritt. Selbstverständlich wollen wir, dass das nicht nur eine Willensbekundung ist, sondern dass wir auch ins Tun kommen. Das erwarten wir uns auch: dass die Umsetzung gut und schnell vonstattengeht. Ich weiß, es ist heute schon relativ spät. Ich weiß nicht, wie viele Zuseherinnen und Zuseher noch via Livestream dabei sind. Ich hoffe aber wirklich inständig, dass mit unserer Arbeit hier, mit der Berichterstattung über die Medien das Thema wirklich ein bisschen breiter in die Öffentlichkeit kommt, denn die Regeln sind eine Sache, aber Awareness ist die andere Sache. Es ist wirklich extrem wichtig, dass in Zukunft weniger Bürgerinnen und Bürger Opfer dieser Scams werden. Weil wir ja schon über die Anträge im Ausschuss sprechen, erlauben Sie mir noch ein paar kurze Sätze zum Kollegen Wurm. Ich finde es spannend, dass genau beim Konsumentenschutzpunkt die beiden Kolleginnen und Kollegen von Ihnen, die ich mir eigentlich im Ausschuss einmal wünschen würde, nicht da sind, nämlich den Kollegen Schiefer und die Kollegin Kolm. Denn ich wüsste wirklich gerne, wofür die FPÖ jetzt steht: Für ein komplett sozialistisch angelegtes Wirtschaftssystem, wo der Staat maximal eingreift (Ruf bei der SPÖ: Was?), oder für das andere, für die wirtschaftliche Freiheit? (Abg. Kaniak [FPÖ]: Für Freiheit! Merk dir das, ein Wort reicht: Freiheit! – Ruf bei der FPÖ: Bei uns hat alles Platz! Wir sind Volkspartei!) Ich weiß es nicht. Es sind irgendwie gemischte Signale, die ich da bekomme: Wurm und Kolm. (Ruf bei der FPÖ: Das ist nur eine Verständnisfrage!) Also vielleicht entscheiden Sie sich da einmal. (Beifall bei den NEOS. – Abg. Kaniak [FPÖ]: Für diese Empfindungsstörungen können wir aber nichts!) Ein letzter Punkt noch zu dem Antrag mit den drei Dezimalstellen bei den Tankstellen. (Abg. Wurm [FPÖ]: Das ist relativ unkompliziert!) Ich habe Ihnen das auch schon im Ausschuss erklärt: Es ist ja interessant, wenn man sich den Antrag – der ist ja öffentlich, den kann sich jeder ansehen – und das, worauf er basiert, anschaut. (Zwischenruf des Abg. Petschnig [FPÖ].) Zur Erinnerung: Wir haben 2026. Der Antrag basiert auf einer Presseaussendung des Arbö von 2009 (Abg. Wurm [FPÖ]: Genau!), in der der Arbö explizit sagt: Wenn die dritte Dezimalstelle gestrichen wird, kann es zu Preissteigerungen kommen. (Abg. Wurm [FPÖ]: Das haben Sie nicht genau gelesen, Frau Kollegin!) – Das wollen Sie? Wirklich? Das wollen Sie? (Beifall bei den NEOS.) Begründet wird es auch damit, dass wir die dritte Dezimalstelle haben, weil ja die Umstellung vom Schilling auf den Euro passiert ist. Ich habe gar nicht gewusst – ich gebe zu, ich bin ein bisschen jünger, aber ich kann mich nicht erinnern –, dass es in so vielen europäischen Ländern vor dem Euro den Schilling gab. (Abg. Wurm [FPÖ]: Nein, aber andere Lokalwährungen!) Denn es ist nicht nur Österreich, das diese dritte Dezimalstelle hat, aber vielleicht habe ich mich da einfach geirrt. (Abg. Steiner [FPÖ]: Es hat die D-Mark gegeben!) Jedenfalls finde ich es gut, dass wir uns heute für bessere Regeln beim mobilen Goldankauf aussprechen und ich hoffe, dass in Zukunft weniger Bürgerinnen und Bürger gescammt werden. – Vielen Dank. (Beifall bei den NEOS. – Abg. Wurm [FPÖ]: Frau Kollegin, Sie haben nichts über das Gold gesagt! – Abg. Holzegger [NEOS] – auf dem Weg zu ihrem Sitzplatz –: Natürlich hab ich etwas übers Gold gesagt!)
-Q1: Which forms of address occur in this excerpt, and who is addressed in each case? Please provide the title, the form of the name (first name/last name), and the gender, as far as it can be recognised from the text for each instance. (Excerpt 1 & Excerpt 2)
-Q2: Do interjections occur in this excerpt and what are they? For each instance, please state who calls out (name, gender, party) and what is said. Finish with the total number. (Excerpt 1 & Excerpt 2)
-Q3: How does the President of the Austrian National Council usually address speakers? Give examples and say whether the form of address differs for women and men. (No excerpt)
-Q4: In two to three sentences, please describe how the speaker is addressed and interrupted in this excerpt regarding tone and attitude. (Excerpt 1 & Excerpt 2)
-Q5: Which interjections in this excerpt come from members of the FPÖ? (Excerpt 1 & Excerpt 2)
+ 
+**Question 1/Excerpt 1 & Output:**
+[exp1_claude_q1_e1](experiments/experiment_1/exp1_claude_q1_e1.md)
 
+**Question 1/Excerpt 2 & Output:**
+[exp1_claude_q1_e2](experiments/experiment_1/exp1_claude_q1_e2.md)
 
-**Output:**
------------Q1: Excerpt 1:-----------
-Here's a breakdown of the forms of address used in the excerpt:
+**Question 2/Excerpt 1 & Output:**
+[exp1_claude_q2_e1](experiments/experiment_1/exp1_claude_q2_e1.md)
 
-    Ines Holzegger - Addressed to Ines Holzegger, a member of parliament.
-        Title: Member of Parliament
-        Form of Name: First name
-        Gender: Female
+**Question 2/Excerpt 2 & Output:**
+[exp1_claude_q2_e2](experiments/experiment_1/exp1_claude_q2_e2.md)
 
-    Herr Präsident - Addressed to the President.
-        Title: None
-        Form of Name: Last name
-        Gender: Male
+**Question 3 & Output:**
+[exp1_claude_q3](experiments/experiment_1/exp1_claude_q3.md)
 
-    Frau Staatssekretärin - Addressed to the State Secretary.
-        Title: State Secretary
-        Form of Name: Last name
-        Gender: Female
+**Question 4/Excerpt 1 & Output:**
+[exp1_claude_q4_e1](experiments/experiment_1/exp1_claude_q4_e1.md)
 
-    Liebe Zuseherinnen und Zuseher - Addressed to women voters.
-        Title: None
-        Form of Name: None
-        Gender: Both
+**Question 4/Excerpt 2 & Output:**
+[exp1_claude_q4_e2](experiments/experiment_1/exp1_claude_q4_e2.md)
 
-    Matznetter [SPÖ] - Addressed to Matthias Netter, a member of the Social Democratic Party (SPÖ).
-        Title: Member of Parliament
-        Form of Name: First name
-        Gender: Male
+**Question 5/Excerpt 1 & Output:**
+[exp1_claude_q5_e1](experiments/experiment_1/exp1_claude_q5_e1.md)
 
-    Darmann [FPÖ] - Addressed to Daniel Darmann, a member of the Freedom Party of Austria (FPÖ).
-        Title: Member of Parliament
-        Form of Name: First name
-        Gender: Male
-
-    Kaniak [FPÖ] - Addressed to Andreas Kaniak, a member of the Freedom Party of Austria (FPÖ).
-        Title: Member of Parliament
-        Form of Name: First name
-        Gender: Male
-
-    Wurm [FPÖ] - Addressed to Wolfgang Wurm, a member of the Freedom Party of Austria (FPÖ).
-        Title: Member of Parliament
-        Form of Name: First name
-        Gender: Male
-
-    Steiner [FPÖ] - Addressed to Christian Steiner, a member of the Freedom Party of Austria (FPÖ).
-        Title: Member of Parliament
-        Form of Name: First name
-        Gender: Male
-
-    Petschnig [FPÖ] - Addressed to Peter Petschnig, a member of the Freedom Party of Austria (FPÖ).
-        Title: Member of Parliament
-        Form of Name: First name
-        Gender: Male
-
-    Schiefer - Addressed to Hans Schiefer, a member of the Austrian People's Party (ÖVP).
-        Title: Member of Parliament
-        Form of Name: First name
-        Gender: Male
-
-    Kolm - Addressed to Elisabeth Kolm, a member of the Austrian People's Party (ÖVP).
-        Title: Member of Parliament
-        Form of Name: First name
-        Gender: Female
-
-    Schiefer - Addressed to Hans Schiefer, a member of the Austrian People's Party (ÖVP).
-        Title: Member of Parliament
-        Form of Name: First name
-        Gender: Male
-
-    Kaniak - Addressed to Andreas Kaniak, a member of the Freedom Party of Austria (FPÖ).
-        Title: Member of Parliament
-        Form of Name: First name
-        Gender: Male
-
-    Staatssekretärin - Addressed to the State Secretary.
-        Title: State Secretary
-        Form of Name: Last name
-        Gender: Female
-
-    Anzahl - Addressed to the number of people present.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Die Regeln - Addressed to the rules.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regel - Addressed to the rule.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regeln - Addressed to the rules.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regel - Addressed to the rule.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regeln - Addressed to the rules.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regel - Addressed to the rule.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regeln - Addressed to the rules.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regel - Addressed to the rule.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regeln - Addressed to the rules.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regel - Addressed to the rule.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regeln - Addressed to the rules.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regel - Addressed to the rule.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regeln - Addressed to the rules.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regel - Addressed to the rule.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regeln - Addressed to the rules.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regel - Addressed to the rule.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regeln - Addressed to the rules.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regel - Addressed to the rule.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regeln - Addressed to the rules.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regel - Addressed to the rule.
-        Title: None
-        Form of Name: None
-        Gender: Neutral
-
-    Regeln - Addressed to the rules.
-        Title: None
-        Form of Name: None
-
------------Q1: Excerpt 2:-----------
-Here's a breakdown of the forms of address used in the excerpt:
-
-    Mr. - Used twice:
-        "Herr Präsident" (Mr. President)
-        "Frau Staatssekretärin" (Mrs. State Secretary)
-
-    Ms. - Used once:
-        "Frau Staatssekretärin" (Mrs. State Secretary)
-
-    Dr. - Used once:
-        "Dr. Wurm" (Mr. Wurm)
-
-    Peter - Addressed to Mr. Wurm (FPÖ).
-
-    Abg. - Abbreviation for "Abgeordneter", meaning Member of Parliament or Representative.
-        "Abg. Wurm" (Member of Parliament Wurm)
-        "Abg. Hofer" (Member of Parliament Hofer)
-        "Abg. Hafenecker" (Member of Parliament Hafenecker)
-
-    NEOS - Abbreviation for "Neue Europäische Sozialisten".
-
-    Spä - Shortened version of "Sociálna pozicia" (Social Democratic Party).
-        "Abg. Spä" (Member of Parliament Spä)
-
-    Abg. - Abbreviation for "Abgeordneter".
-        "Abg. Wurm" (Member of Parliament Wurm)
-        "Abg. Hofer" (Member of Parliament Hofer)
-        "Abg. Hafenecker" (Member of Parliament Hafenecker)
-
-    Abg. - Abbreviation for "Abgeordneter".
-        "Abg. Wurm" (Member of Parliament Wurm)
-        "Abg. Hofer" (Member of Parliament Hofer)
-        "Abg. Hafenecker" (Member of Parliament Hafenecker)
-
-The gender of these individuals cannot be definitively determined based solely on their names and titles in the text. However, given the context, they appear to be male politicians.
-
------------Q2: Excerpt 1:-----------
-In this excerpt, there are several instances of interjections:
-
-    "Vielen herzlichen Dank" - This is an interjection expressing gratitude.
-        Who called out: Ines Holzegger (NEOS)
-        What was said: "Vielen herzlichen Dank, Herr Präsident!"
-
-    "Herr Präsident!" - This is an exclamation expressing respect or enthusiasm.
-        Who called out: Ines Holzegger (NEOS)
-
-    "Werte Frau Staatssekretärin!" - This is an interjection expressing respect for someone's position.
-        Who called out: Ines Holzegger (NEOS)
-
-    "Hohes Haus!" - This is an interjection expressing excitement or enthusiasm.
-        Who called out: Ines Holzegger (NEOS)
-
-    "Liebe Zuseherinnen und Zuseher!" - This is an interjection expressing affection towards people.
-        Who called out: Ines Holzegger (NEOS)
-
-The total number of interjections in this excerpt is 5.
-
------------Q2: Excerpt 2:-----------
-In this excerpt, there are several instances where interjections occur:
-
-    "Danke, Herr Präsident!" - This is an interjection from Abgeordneter Michael Seemayer (SPÖ), addressing the President.
-    "Frau Staatssekretärin!" - Another interjection from Abgeordneter Michael Seemayer to address the State Secretary.
-    "(Heiterkeit des Abg. Hofer [NEOS])" - This is an interjection from Abgeordneter Hofer (NEOS) expressing amusement or laughter.
-    "Einer hat’s geschafft! Einer!" - These are interjections from Abgeordneter Wurm (FPÖ) indicating that one person has succeeded in something.
-    "Die Tankstellen machen sieben!" - This is another interjection from Abgeordneter Wurm, emphasizing the seven decimal places at gas stations.
-    "Billiger! Der Neuner kommt eine Stelle vor!" - This is an interjection from Abgeordneter Wurm, suggesting that prices for gold and other metals are lower than usual.
-    "Bravo!" - This is an interjection from both Abgeordneter Hofer (NEOS) and Abgeordneter Kocevar (SPÖ), expressing approval or admiration.
-    "Neues!" - This is an interjection from Abgeordneter Hofer, possibly referring to new developments or changes.
-
-The total number of interjections in this excerpt is 8.
-
------------Q3:-----------
-The President of the Austrian National Council typically addresses speakers in a formal manner that is respectful to all participants, regardless of gender. The style of addressing can vary slightly depending on the context or specific circumstances but generally follows these guidelines:
-
-    Formal Address: When speaking formally, the President might use titles such as "Herr" (Mr.) or "Frau" (Mrs./Ms.), followed by their name. For example:
-        "Herr Präsident," [Name] "würden Sie bitte Ihre Rede halten?"
-        "Frau Präsidentin," [Name] "würden Sie bitte Ihre Rede halten?"
-
-    Casual Address: In more informal settings, especially during social gatherings or when welcoming guests, the President may use a more casual tone. However, this would still be addressed with respect.
-        "Guten Tag, Herr/ Frau [Name]."
-        "Guten Tag, Herr/ Frau [Name]."
-
-    Specific Contexts:
-        If the speaker is known to have a significant influence or if they are particularly important, the President might use a title like "Herr Ministerpräsident" (Mr. Minister-President) before their name.
-        During ceremonies or official events, the President might use an honorific like "Hochzeitsvater" (Married Father) or "Hochzeitsmutter" (Married Mother), which indicates respect for the couple.
-
-    Gender-Neutral Language: It's worth noting that Austria has been moving towards gender-neutral language in its official documents and communications. This means that while the President will always address individuals using appropriate titles based on their gender, there is no longer a distinction made between male and female forms of address within the official discourse.
-
-In summary, the President of the Austrian National Council uses formal and respectful language when addressing speakers, without making distinctions based on gender. This ensures that all participants feel valued and respected throughout the proceedings.
-
------------Q4: Excerpt 1:-----------
-The speaker is addressed as "Frau Staatssekretärin" and "Frau Zuseherinnen und Zuseher", indicating respect for their positions. However, they are also referred to with colloquial terms like "Liebe Zuseherinnen und Zuseher" and "Frau Kollegin", showing a more informal tone. The interruptions from other speakers, such as the laughter of the FPÖ representative and the applause from the NEOS members, indicate that the conversation has become somewhat rowdy or contentious.
-
------------Q4: Excerpt 2:-----------
-The speaker is addressed as "Herr Präsident" and "Frau Staatssekretärin", but is then interrupted multiple times throughout the excerpt with laughter from other speakers, indicating that they do not take the speaker's statements seriously or find them amusing. The overall tone and attitude of the excerpt is one of skepticism and criticism towards the speaker's claims about illegal gold trading, while also mocking their apparent naivety on the subject matter.
-
------------Q5: Excerpt 1:-----------
-Based on the excerpt provided, several interjections and exclamations can be identified as coming from members of the FPÖ (Folkspartei Österreich). These include:
-
-    "Für Freiheit!" - This is repeated twice by Kaniak, indicating strong support for the FPÖ's stance on freedom.
-
-    "Wir sind Volkspartei!" - This is also repeated by Kaniak, emphasizing his party affiliation with the FPÖ.
-
-    "Das ist nur eine Verständnisfrage!" - This is said by Kaniak, showing disagreement or questioning the validity of something proposed by others.
-
-    "Es hat die D-Mark gegeben!" - This statement is made by Steiner, suggesting that he disagrees with the idea that the FPÖ supports the use of the DM mark instead of the euro.
-
-    "Vielen Dank." - This is used at the end of the speech, which could indicate appreciation or gratitude towards someone speaking on behalf of the FPÖ.
-
-These elements clearly show that the speaker is likely representing the FPÖ in their comments and statements within the context of the discussion about mobile gold buying scams.
-
------------Q5: Excerpt 2:-----------
-Based on the excerpt provided, several interjections and comments can be identified as coming from members of the FPÖ (Frac de la Voie Romane). Here are some examples:
-
-    "Einer hat's geschafft!" - This is a common phrase used by FPÖ members to express pride or satisfaction with their achievements.
-
-    "Die Tankstellen machen sieben!" - This comment suggests that the speaker believes tank stations should have seven decimal places for prices, which aligns with FPÖ policies regarding price transparency.
-
-    "Billiger! Der Neuner kommt eine Stelle vor!" - The use of "billiger" indicates support for lower prices, which is consistent with FPÖ economic policies.
-
-    "Bravo!" - This exclamation is often used by FPÖ members to show approval or admiration.
-
-    "NEOS, was ist denn los mit euch?" - This question shows frustration towards other parties, likely referring to opposition members like the SPÖ or ÖVP.
-
-    "Das wollen wir mit unserem Antrag in die Wege leiten." - This statement expresses determination to push through the proposed legislation, which is characteristic of FPÖ positions.
-
-    "Es braucht da einen besseren Schutz für die Konsumentinnen und Konsumenten." - This comment highlights concerns about consumer protection, which is another area where FPÖ tends to advocate strongly.
-
-These elements demonstrate how FPÖ members frequently use humor, direct statements, and rhetorical questions to convey their views and engage with others during discussions.
-
-> The excerpt has two kinds of address: what the speaker, Ines Holzegger (NEOS), says to people in the chamber, and what other MPs call out to her. The stenographic notes also name people, but those are references rather than address, so they're listed separately at the end.
-
-## 1. Direct address by the speaker
-
-| # | Form of address | Who is addressed | Title / function | Name form | Gender |
-|---|---|---|---|---|---|
-| 1 | „Herr Präsident!“ | The presiding President of the Nationalrat | Präsident | no name | male („Herr“) |
-| 2 | „Werte Frau Staatssekretärin!“ | The state secretary on the government bench | Staatssekretärin | no name | female („Frau“, ending *-in*) |
-| 3 | „Hohes Haus!“ | Parliament as a whole | collective form for the chamber | no name | none (collective) |
-| 4 | „Liebe Zuseherinnen und Zuseher!“ | Viewers, including those on the livestream | none | no name | both, gender-inclusive pair form |
-| 5 | „Stellen Sie sich vor …“ | The audience in general (formal *Sie*) | none | no name | not identifiable |
-| 6 | „… die beiden Kolleginnen und Kollegen **von Ihnen** …“ | Abg. Wurm or the FPÖ group | none | no name (pronoun only) | not identifiable from this phrase |
-| 7 | „… wofür die FPÖ jetzt steht“ / „Also vielleicht entscheiden **Sie** sich da einmal.“ | The FPÖ group | party name | no name | none (group) |
-| 8 | „Ich habe **Ihnen** das auch schon im Ausschuss erklärt“ / „Das wollen **Sie**? Wirklich?“ | Abg. Wurm (FPÖ), who moved the fuel-price motion | none | no name (pronoun only) | male only from context („Kollege Wurm“) |
-
-## 2. Third-person mentions in the speech (talked about, not to)
-
-| Form | Person | Title / function | Name form | Gender |
-|---|---|---|---|---|
-| „zum Kollegen Wurm“ | Abg. Wurm (FPÖ) | Kollege | last name only | male |
-| „den Kollegen Schiefer“ | Abg. Schiefer (FPÖ) | Kollege | last name only | male |
-| „die Kollegin Kolm“ | Abg. Kolm (FPÖ) | Kollegin | last name only | female |
-| „Wurm und Kolm“ | the same two | none | last names only, no title | not marked here |
-
-## 3. Interjections addressed to the speaker
-
-| Form | Speaker | Addressee | Title / function | Name form | Gender |
-|---|---|---|---|---|---|
-| „Merk dir das, ein Wort reicht: Freiheit!“ | Abg. Kaniak (FPÖ) | Holzegger | none (informal *du*) | no name | not marked in this phrase |
-| „Das haben Sie nicht genau gelesen, **Frau Kollegin**!“ | Abg. Wurm (FPÖ) | Holzegger | Kollegin | no name | female |
-| „**Frau Kollegin**, Sie haben nichts über das Gold gesagt!“ | Abg. Wurm (FPÖ) | Holzegger | Kollegin | no name | female |
-
-## 4. Names in the stenographic notes (references, not address)
-
-- **Speaker label:** „Abgeordnete Ines Holzegger (NEOS)“ gives the title in full, first and last name, and the female form *Abgeordnete*.
-- **Interjectors:** „Abg. Matznetter [SPÖ]“, „Abg. Darmann [FPÖ]“, „Abg. Kaniak [FPÖ]“, „Abg. Wurm [FPÖ]“, „Abg. Petschnig [FPÖ]“, „Abg. Steiner [FPÖ]“ and „Abg. Holzegger [NEOS]“. Each has the abbreviated title, last name only, and party. The abbreviation *Abg.* doesn't show gender, so it can only be inferred from elsewhere in the text: Wurm is male and Holzegger female.
-- **Unnamed callers:** „Ruf bei der SPÖ“ and „Ruf bei der FPÖ“ give no name or gender.
-
-**Pattern:** The President and the state secretary are addressed by function and gendered honorific (*Herr*/*Frau*), with no name. MPs are named with *Kollege*/*Kollegin* plus last name. First names appear only in the speaker label. The heckles switch to *du* (Kaniak) or the nameless *Frau Kollegin* (Wurm).
+**Question 5/Excerpt 2 & Output:**
+[exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
 
 **What I noticed:**
-Q1: Excerpt 1: Lists Ines Holzegger, Herr Präsident, Frau Staatssekretärin, Liebe Zuseherinnen und Zuseher, etc but then it starts to hallucinates and gets stuck in a loop where it repeats "Regel - Addressed to the rule" a dozen times. 
-               It also invents full first names (e.g., Matthias Netter, Daniel Darmann, Andreas Kaniak, Wolfgang Wurm, Christian Steiner, Peter Petschnig, Hans Schiefer, Elisabeth Kolm). 
-               It and labels Zuseherinnen und Zuseher as "women voters" even though these are obviously not only women.
-               It also says that Herr Präsident has no title
-Q1: Excerpt 2: Uses "Mr." / "Mrs" even though the text is in German
-               Maps "Herr Präsident" and "Frau STaatssektretärin" to "Mr."
-               Doesnt provide the genders anymore
-               Says that the invented name "Dr. Wurm" appears in the text
-               Misidentifies NEOS as "Neue Europäische Sozialisten"
-               Misidentifies SPÖ/Spä as "Sociálna pozicia"
-               Repeats Abg. blocks, and concludes gender cannot be definitively determined from names/titles alone before guessing male politicians.
-Q2: Excerpt 1: Says that Holzegger interject multiple times even though he doesnt
-               ->it is his turn speaking and he is just greeting everyone
-               It misses actual parliamentary interjections (Zwischenruf / Ruf / Abg. callouts)
-Q2: Excerpt 2: Says that Seemayer has some interjections even though it is his turn speaking and he is just greeting everyone
-               Gets some interjections correct
-               Says that the interjection "Bravo!" is from Hofer and Kocevar even though it is Wurm who says this
-               It hallucinates the interjection "Neues!" from Hofer
-Q3: No excerpt: Says that the President uses "Herr Präsident," [Name] or "Frau Präsidentin," [Name] to adress others which doesnt make sense since he is the president and the others are not
-                It invents casual greetings ("Guten Tag, Herr/ Frau [Name]")
-                It invents titles like "Hochzeitsvater" / "Hochzeitsmutter"
-                It contradicts itself in this statement: "while the president will always address individuals using appropriate titles based on their gender, there is no longer a distinction made between male and female forms of address within the official discourse."
-Q4: Excerpt 1: Misindentifies that the speaker is addressed as "Frau Zuseherinnen und Zuseher" and "Frau Kollegin" 
-               It gives only a vague explanation of who is addressed and interrupted
-Q4: Excerpt 2: Says that the speaker is addressed as "Herr Präsident" and "Frau Staatssekretärin" which doesnt make sense
-               It says that speaker is interrupted multiple times
-               It states that the tone as skeptical, critical, and mocking
-Q5: Excerpt 1 & 2: Misinterprets parties and roles—expands FPÖ as "Folkspartei Österreich" (Excerpt 1) and "Frac de la Voie Romane" (Excerpt 2), attributes Holzegger's "Vielen Dank." and Seemayer's own speech lines ("Das wollen wir...", "Es braucht da...") to FPÖ interjections, and confuses who holds which position.
-
-
-Without prompting and with greedy decoding, the model hallucinates a lot and gets stuck in repititon loops
-- 
+- Claude manages to grasp the information and context correctly, recognizes forms and address and separates them from a simple mention of name
+- For Q3, the content is almost the same, but Claude claims that academic titles are regularly stated
+- For Q4, Claude exceeded the limit of 2-3 sentences (4 sentences)
+- The questions that are answered with a number are in line with our manually annotated gold standard (Q2, Q5)
 
 **What I will change next:**
-I will try out Qwen 3B instead of Qwen 1.5B to see if it makes a difference
+- Try the same thing for Gemini
 
-## Experiment template
+### Experiment 1.3 — Qwen 1.5B: Testing 5 Questions on 2 Excerpts Without Further Prompting
+Date: 2026-11-25
+Model: x
+Prompt version: v1 - prompt only as question with excerpt
+Layer: baseline
 
+ 
+**Question 1/Excerpt 1 & Output:**
+[exp1_claude_q1_e1](experiments/experiment_1/exp1_claude_q1_e1.md)
 
-### Experiment [2] — [short description]
-Date: YYYY-MM-DD
-Model: [model name + version]
-Prompt version: [e.g. v001]
-Layer: [baseline | prompted | rag | agents]
+**Question 1/Excerpt 2 & Output:**
+[exp1_claude_q1_e2](experiments/experiment_1/exp1_claude_q1_e2.md)
 
-**Question asked:**
-> ...
+**Question 2/Excerpt 1 & Output:**
+[exp1_claude_q2_e1](experiments/experiment_1/exp1_claude_q2_e1.md)
 
-**Output:**
-> ...
+**Question 2/Excerpt 2 & Output:**
+[exp1_claude_q2_e2](experiments/experiment_1/exp1_claude_q2_e2.md)
+
+**Question 3 & Output:**
+[exp1_claude_q3](experiments/experiment_1/exp1_claude_q3.md)
+
+**Question 4/Excerpt 1 & Output:**
+[exp1_claude_q4_e1](experiments/experiment_1/exp1_claude_q4_e1.md)
+
+**Question 4/Excerpt 2 & Output:**
+[exp1_claude_q4_e2](experiments/experiment_1/exp1_claude_q4_e2.md)
+
+**Question 5/Excerpt 1 & Output:**
+[exp1_claude_q5_e1](experiments/experiment_1/exp1_claude_q5_e1.md)
+
+**Question 5/Excerpt 2 & Output:**
+[exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
 
 **What I noticed:**
-- 
-- 
+- d
 
 **What I will change next:**
-- 
+- d
 
-```
+### Experiment 1.4 — Qwen 3B: Testing 5 Questions on 2 Excerpts Without Further Prompting
+Date: 2026-11-25
+Model: x
+Prompt version: v1 - prompt only as question with excerpt
+Layer: baseline
+
+ 
+**Question 1/Excerpt 1 & Output:**
+[exp1_claude_q1_e1](experiments/experiment_1/exp1_claude_q1_e1.md)
+
+**Question 1/Excerpt 2 & Output:**
+[exp1_claude_q1_e2](experiments/experiment_1/exp1_claude_q1_e2.md)
+
+**Question 2/Excerpt 1 & Output:**
+[exp1_claude_q2_e1](experiments/experiment_1/exp1_claude_q2_e1.md)
+
+**Question 2/Excerpt 2 & Output:**
+[exp1_claude_q2_e2](experiments/experiment_1/exp1_claude_q2_e2.md)
+
+**Question 3 & Output:**
+[exp1_claude_q3](experiments/experiment_1/exp1_claude_q3.md)
+
+**Question 4/Excerpt 1 & Output:**
+[exp1_claude_q4_e1](experiments/experiment_1/exp1_claude_q4_e1.md)
+
+**Question 4/Excerpt 2 & Output:**
+[exp1_claude_q4_e2](experiments/experiment_1/exp1_claude_q4_e2.md)
+
+**Question 5/Excerpt 1 & Output:**
+[exp1_claude_q5_e1](experiments/experiment_1/exp1_claude_q5_e1.md)
+
+**Question 5/Excerpt 2 & Output:**
+[exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
+
+**What I noticed:**
+- d
+
+**What I will change next:**
+- d
+
+## Experiment 2 - Prompting with Rules
+### Experiment 2.1 — Claude: Testing 5 Questions on 2 Excerpts With Specific Prompt
+Date: 2026-11-25
+
+Model: Claude Sonnet 5.5 Medium
+
+Prompt version: v2 - prompt including specific set of rules
+
+Layer: prompted
+
+
+**Question 1/Excerpt 1 & Output:**
+[exp1_claude_q1_e1](experiments/experiment_1/exp1_claude_q1_e1.md)
+
+**Question 1/Excerpt 2 & Output:**
+[exp1_claude_q1_e2](experiments/experiment_1/exp1_claude_q1_e2.md)
+
+**Question 2/Excerpt 1 & Output:**
+[exp1_claude_q2_e1](experiments/experiment_1/exp1_claude_q2_e1.md)
+
+**Question 2/Excerpt 2 & Output:**
+[exp1_claude_q2_e2](experiments/experiment_1/exp1_claude_q2_e2.md)
+
+**Question 3 & Output:**
+[exp1_claude_q3](experiments/experiment_1/exp1_claude_q3.md)
+
+**Question 4/Excerpt 1 & Output:**
+[exp1_claude_q4_e1](experiments/experiment_1/exp1_claude_q4_e1.md)
+
+**Question 4/Excerpt 2 & Output:**
+[exp1_claude_q4_e2](experiments/experiment_1/exp1_claude_q4_e2.md)
+
+**Question 5/Excerpt 1 & Output:**
+[exp1_claude_q5_e1](experiments/experiment_1/exp1_claude_q5_e1.md)
+
+**Question 5/Excerpt 2 & Output:**
+[exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
+
+**What I noticed:**
+- d
+
+**What I will change next:**
+- d
+
+### Experiment 2.2 — Gemini: Testing 5 Questions on 2 Excerpts With Specific Prompt
+Date: 2026-11-25
+
+Model: Gemini Hydrogen
+
+Prompt version: v2 - prompt including specific set of rules
+
+Layer: prompted
+
+ 
+**Question 1/Excerpt 1 & Output:**
+[exp1_claude_q1_e1](experiments/experiment_1/exp1_claude_q1_e1.md)
+
+**Question 1/Excerpt 2 & Output:**
+[exp1_claude_q1_e2](experiments/experiment_1/exp1_claude_q1_e2.md)
+
+**Question 2/Excerpt 1 & Output:**
+[exp1_claude_q2_e1](experiments/experiment_1/exp1_claude_q2_e1.md)
+
+**Question 2/Excerpt 2 & Output:**
+[exp1_claude_q2_e2](experiments/experiment_1/exp1_claude_q2_e2.md)
+
+**Question 3 & Output:**
+[exp1_claude_q3](experiments/experiment_1/exp1_claude_q3.md)
+
+**Question 4/Excerpt 1 & Output:**
+[exp1_claude_q4_e1](experiments/experiment_1/exp1_claude_q4_e1.md)
+
+**Question 4/Excerpt 2 & Output:**
+[exp1_claude_q4_e2](experiments/experiment_1/exp1_claude_q4_e2.md)
+
+**Question 5/Excerpt 1 & Output:**
+[exp1_claude_q5_e1](experiments/experiment_1/exp1_claude_q5_e1.md)
+
+**Question 5/Excerpt 2 & Output:**
+[exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
+
+**What I noticed:**
+- d
+- 
+**What I will change next:**
+- d
+
+### Experiment 2.3 — Qwen 1.5B: Testing 5 Questions on 2 Excerpts With Specific Prompt
+Date: 2026-11-25
+Model: x
+Prompt version: v2 - prompt including specific set of rules
+Layer: prompted
+
+ 
+**Question 1/Excerpt 1 & Output:**
+[exp1_claude_q1_e1](experiments/experiment_1/exp1_claude_q1_e1.md)
+
+**Question 1/Excerpt 2 & Output:**
+[exp1_claude_q1_e2](experiments/experiment_1/exp1_claude_q1_e2.md)
+
+**Question 2/Excerpt 1 & Output:**
+[exp1_claude_q2_e1](experiments/experiment_1/exp1_claude_q2_e1.md)
+
+**Question 2/Excerpt 2 & Output:**
+[exp1_claude_q2_e2](experiments/experiment_1/exp1_claude_q2_e2.md)
+
+**Question 3 & Output:**
+[exp1_claude_q3](experiments/experiment_1/exp1_claude_q3.md)
+
+**Question 4/Excerpt 1 & Output:**
+[exp1_claude_q4_e1](experiments/experiment_1/exp1_claude_q4_e1.md)
+
+**Question 4/Excerpt 2 & Output:**
+[exp1_claude_q4_e2](experiments/experiment_1/exp1_claude_q4_e2.md)
+
+**Question 5/Excerpt 1 & Output:**
+[exp1_claude_q5_e1](experiments/experiment_1/exp1_claude_q5_e1.md)
+
+**Question 5/Excerpt 2 & Output:**
+[exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
+
+**What I noticed:**
+- d
+
+**What I will change next:**
+- d
+
+### Experiment 2.4 — Qwen 3B: Testing 5 Questions on 2 Excerpts With Specific Prompt
+Date: 2026-11-25
+Model: x
+Prompt version: v2 - prompt including specific set of rules
+Layer: prompted
+
+ 
+**Question 1/Excerpt 1 & Output:**
+[exp1_claude_q1_e1](experiments/experiment_1/exp1_claude_q1_e1.md)
+
+**Question 1/Excerpt 2 & Output:**
+[exp1_claude_q1_e2](experiments/experiment_1/exp1_claude_q1_e2.md)
+
+**Question 2/Excerpt 1 & Output:**
+[exp1_claude_q2_e1](experiments/experiment_1/exp1_claude_q2_e1.md)
+
+**Question 2/Excerpt 2 & Output:**
+[exp1_claude_q2_e2](experiments/experiment_1/exp1_claude_q2_e2.md)
+
+**Question 3 & Output:**
+[exp1_claude_q3](experiments/experiment_1/exp1_claude_q3.md)
+
+**Question 4/Excerpt 1 & Output:**
+[exp1_claude_q4_e1](experiments/experiment_1/exp1_claude_q4_e1.md)
+
+**Question 4/Excerpt 2 & Output:**
+[exp1_claude_q4_e2](experiments/experiment_1/exp1_claude_q4_e2.md)
+
+**Question 5/Excerpt 1 & Output:**
+[exp1_claude_q5_e1](experiments/experiment_1/exp1_claude_q5_e1.md)
+
+**Question 5/Excerpt 2 & Output:**
+[exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
+
+**What I noticed:**
+- d
+
+**What I will change next:**
+- d
+
+## Experiment 3 - Claude Project: Testing 5 Questions on 2 Excerpts With Specific Prompt and Further Information
+Date: 2026-11-25
+
+Model: Claude Sonnet 5.5 Medium
+
+Prompt version: using project with information and context as well as prompts
+
+Layer: project
+ 
+**Question 1/Excerpt 1 & Output:**
+[exp1_claude_q1_e1](experiments/experiment_1/exp1_claude_q1_e1.md)
+
+**Question 1/Excerpt 2 & Output:**
+[exp1_claude_q1_e2](experiments/experiment_1/exp1_claude_q1_e2.md)
+
+**Question 2/Excerpt 1 & Output:**
+[exp1_claude_q2_e1](experiments/experiment_1/exp1_claude_q2_e1.md)
+
+**Question 2/Excerpt 2 & Output:**
+[exp1_claude_q2_e2](experiments/experiment_1/exp1_claude_q2_e2.md)
+
+**Question 3 & Output:**
+[exp1_claude_q3](experiments/experiment_1/exp1_claude_q3.md)
+
+**Question 4/Excerpt 1 & Output:**
+[exp1_claude_q4_e1](experiments/experiment_1/exp1_claude_q4_e1.md)
+
+**Question 4/Excerpt 2 & Output:**
+[exp1_claude_q4_e2](experiments/experiment_1/exp1_claude_q4_e2.md)
+
+**Question 5/Excerpt 1 & Output:**
+[exp1_claude_q5_e1](experiments/experiment_1/exp1_claude_q5_e1.md)
+
+**Question 5/Excerpt 2 & Output:**
+[exp1_claude_q5_e2](experiments/experiment_1/exp1_claude_q5_e2.md)
+
+**What I noticed:**
+- d
+
+**What I will change next:**
+- d
 
 ---
